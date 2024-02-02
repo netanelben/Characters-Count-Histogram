@@ -12,9 +12,8 @@ import "./App.css";
 import React from "react";
 
 function App() {
-    const defaultText = `
-        $:F@#K$RVWPERJWOEJO#JDEO!J#$O!J#O%H%^O@#J^O#J$%^O$%&J%^&*OK^P(K&P*)&MIYUMJRBTY%J&*^&*UP)(*&^%$#@!QASDFGTYUIOL<MNBVCXSAQ@#$%^&*()
-    `;
+    const defaultText =
+        "$:F@#K$RVWPERJWOEJO#JDEO!J#$O!J#O%H%^O@#J^O#J$%^O$%&J%^&*OK^P(K&P*)";
     const [text, setText] = React.useState(defaultText);
 
     const characters = {};
